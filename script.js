@@ -1,3 +1,4 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+const downArrows = document.querySelector("#more-arrows");
+downArrows.addEventListener('click', function() {
+    document.querySelector("#section2").scrollIntoView();
+})
