@@ -1,4 +1,4 @@
-const downArrow = document.querySelector("#arrow");
+const downArrow = document.getElementById("arrow");
 downArrow.addEventListener('click', function() {
-    document.querySelector("#section2").scrollIntoView();
+    document.getElementById("#section2").scrollIntoView();
 })
