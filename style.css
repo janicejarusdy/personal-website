@@ -1,30 +1,51 @@
 body {
-    color: #000;
     margin: 0;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: "Montserrat"; 
   }
   .section1 {
-    background: PaleGoldenRod;
+    display: flex;
+    flex-direction: row;
+    color: #1B3D2F;
+    background: linear-gradient(to bottom right, #FDFAE6, #AEEE8A);
     height: 100vh;
-    padding: 20px;
-    margin: auto;
+    padding: 0;
     text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
   }
+
+  #personal-picture {
+    justify-content: center;
+    border-radius: 50px;
+  }
+
+  #introduction {
+    padding: 30px;
+  }
+
+  .section1 img {
+    width: 249px;
+    height: 300px;
+    border-radius: 50px;
+  }
+
   .arrow {
     position: relative;
     left: 50%;
-    top: 50%;
+    top: 25%;
     transform: translate(-50%,-50%);
   }
   .section1 h1, .section1 p {
     position: relative;
+    top: 5%;
   }
   #more-arrows {
     width: 75px;
     height: 65px;
   }
   #more-arrows:hover polygon {
-    fill: #FFF;
+    fill: #FDFAE6;
     transition: all .2s ease-out;
   }
   #more-arrows:hover polygon.arrow-bottom {
@@ -34,7 +55,7 @@ body {
     transform: translateY(18px);
   }
   polygon {
-    fill: #FFF;
+    fill: #FDFAE6;
     transition: all .2s ease-out;
   }
   polygon.arrow-middle {
@@ -45,8 +66,28 @@ body {
   }
   
   .section2 {
-    background: aquamarine;
+    background: #1B3D2F;
     height: 100vh;
     padding: 20px;
     text-align: center;
   }
+
+.contact-details {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 249, 230, 0.5);
+    color: black;
+ }
+
+.socmed-icon {
+    color: black;
+    height: 25px;
+    padding: 8px 8px 0 8px;
+
+ }
