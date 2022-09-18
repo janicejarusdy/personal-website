@@ -19,18 +19,21 @@ body {
     display: flex;
     flex-direction: row;
     color: #1B3D2F;
+    flex-wrap: wrap;
     background: linear-gradient(to bottom right, #FDFAE6, #EEE8AA);
     height: 100vh;
-    padding: 0;
-    text-align: center;
+    padding: 30px;
+    text-align: justify;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    align-items: center;
+    line-height: 1.25;
   }
 
   #introduction {
-    width: 350px;
-    padding: 30px;
+    max-width: 500px;
+    padding-left: 50px;
   }
 
   #personal-picture {
@@ -42,6 +45,7 @@ body {
     width: 249px;
     height: 300px;
     border-radius: 50px;
+    box-shadow: 0 10px 10px 0;
   }
 
   .arrow-container {
@@ -57,19 +61,13 @@ body {
   #arrow:hover polygon {
     fill: #1B3D2F;
     transition: all .2s ease-out;
-    transform: translateY(-15px);
+    transform: translateY(15px);
   }
 
 
   polygon {
     fill: #1B3D2F;
     transition: all .2s ease-out;
-  }
-  polygon.arrow-middle {
-    opacity: 0.75;
-  }
-  polygon.arrow-top {
-    opacity: 0.5;
   }
   
   .section2 {
@@ -82,12 +80,12 @@ body {
 .contact-details {
     display: flex;
     position: fixed;
-    align-items: center;
     justify-content: right;
+    align-items: center;
     left: 0;
     top: 0;
     width: 100%;
-    height: 40px;
+    height: 50px;
     background-color: rgb(255, 249, 230, 0.5);
     color: #1B3D2F;
  }
@@ -95,5 +93,14 @@ body {
 .socmed-icon {
     color: #1B3D2F;
     height: 25px;
-    padding: 8px 3px 3px 3px;
+    margin-right: 15px;
+    transition: all 0.3s ease;
  }
+
+ .socmed-icon:hover {
+    transform: translate(-2px,-4px);
+    background-color: #2F4858;
+    color: #EEE8AA;
+ }
+
+ 
