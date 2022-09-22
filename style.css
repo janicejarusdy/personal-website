@@ -169,9 +169,10 @@ main {
 .timeline__event__date {
     color:#FFC6A4;
     font-size: 1rem;
-    max-width: 80px;
-    overflow: wrap;
-    white-space: nowrap;
+    width: 50px;
+    white-space: pre-line;
+    text-align: justify;
+    margin: auto;
 }
 
 .timeline__event__icon {
