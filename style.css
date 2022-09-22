@@ -21,15 +21,11 @@ p {
 
 header {
     color: #1B3D2F;
-    flex-wrap: wrap;
     background: linear-gradient(180deg, #FDFAE6, #EEE8AA);
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-}
-
-#section1 {
-    padding: 2.5rem;
+    padding: 2.5rem 0;
     display: flex;
     flex-flow: column wrap;
     text-align: justify;
@@ -148,9 +144,21 @@ main svg {
 }
 
 @media screen and (min-device-width: 768px) {
-    section1 {
+    header {
+        color: #1B3D2F;
+        background: linear-gradient(180deg, #FDFAE6, #EEE8AA);
+        width: 100%;
+        min-height: 100vh;
+        overflow: hidden;
+        padding: 2.5rem;
         display: flex;
         flex-flow: row wrap;
+        text-align: justify;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.25;
+        gap: 1.5rem;
     }
 }
 
