@@ -37,17 +37,17 @@ header {
 }
 
 #introduction {
-    max-width: 500px;
+    max-width: 31.25rem;
 }
 
 #personal-picture {
     justify-content: center;
-    border-radius: 50px;
+    border-radius: 3.2rem;
 }
 
 header img {
-    width: 249px;
-    height: 300px;
+    max-width: 249px;
+    max-height: 300px;
     border-radius: 50px;
     box-shadow: 0 10px 10px 0;
 }
@@ -59,6 +59,10 @@ header img {
     transform: translate(-50%, -50%);
     width: 50px;
     height: 40px;
+}
+
+#arrow {
+    transform: scale(1.2);
 }
 
 
@@ -87,6 +91,7 @@ main {
 
 main h2 {
     margin: 0;
+    padding-top: 1.5rem;
 }
 
 main svg {
