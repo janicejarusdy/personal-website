@@ -21,7 +21,7 @@ p {
 }
 
 header {
-    color: #1B3D2F;
+    color: #2F4858;
     background: linear-gradient(180deg, #FDFAE6, #EEE8AA);
     width: 100%;
     min-height: 100vh;
@@ -79,12 +79,12 @@ header img {
 
 
 polygon {
-    fill: #1B3D2F;
+    fill: #2F4858;
     transition: all .2s ease-out;
 }
 
 main {
-    background: linear-gradient(180deg, #EEE8AA, #1B3D2F);
+    background: linear-gradient(180deg, #EEE8AA, #007060);
     max-width: 100vw;
     min-height: 100vh;
     text-align: center;
@@ -92,11 +92,12 @@ main {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    color: #1B3D2F;
+    color: #2F4858;
+    padding-bottom: 50px;
 }
 
 #section2 h2 {
-    padding-top: 5rem;
+    padding-top: 3rem;
     text-align: center;
     overflow-wrap: wrap;
 }
@@ -155,7 +156,7 @@ main {
     line-height: 1.4;
     text-transform: uppercase;
     font-weight: 600;
-    color: #9251ac;
+    color:#BB5B3F;
     letter-spacing: 1.5px;
 }
 
@@ -166,7 +167,7 @@ main {
 
 
 .timeline__event__date {
-    color: #f6a4ec;
+    color:#FFC6A4;
     font-size: 0.75rem;
     max-width: 80px;
     overflow: wrap;
@@ -175,12 +176,12 @@ main {
 
 .timeline__event__icon {
     border-radius: 8px 0 0 8px;
-    background: #9251ac;
+    background:#BB5B3F;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    color: #9251ac;
+    color: #BB5B3F;
     padding: 10px;
     padding: 20px;
 }
@@ -203,7 +204,7 @@ main {
     content: "";
     max-width: 10px;
     height: 100%;
-    background: #9251ac;
+    background:#BB5B3F;
     position: absolute;
     top: 52%;
     left: -3.5rem;
@@ -215,56 +216,54 @@ main {
     width: 4rem;
     height: 4rem;
     position: absolute;
-    background: #f6a4ec;
+    background:#FFC6A4;
     border-radius: 100%;
     left: -5.5rem;
     top: 50%;
     transform: translateY(-50%);
-    border: 2px solid #9251ac;
+    border: 2px solid#BB5B3F;
 }
 
 .timeline__event--type2:before {
-    background: #87bbfe;
-    border-color: #555ac0;
+    background: #C3FCF1;
+    border-color: #007561;
 }
 
-/*
 .timeline__event--type2:after {
-    background: #555ac0;
+    background: #007561;
 }
 
 .timeline__event--type2 .timeline__event__date {
-    color: #87bbfe;
+    color: #C3FCF1;
 }
 .timeline__event--type2 .timeline__event__icon {
-    background: #555ac0;
-    color: #555ac0;
+    background: #007561;
+    color: #007561;
 }
 .timeline__event--type2 .timeline__event__title {
-    color: #555ac0;
+    color: #007561;
 }
 .timeline__event--type3:before {
-    background: #aff1b6;
-    border-color: #24b47e;
+    background: #F1E6DD;
+    border-color: #514438;
 }
 .timeline__event--type3:after {
-    background: #24b47e;
+    background: #514438;
 }
 .timeline__event--type3 .timeline__event__date {
-    color: #aff1b6;
+    color: #F1E6DD;
 }
 .timeline__event--type3 .timeline__event__icon {
-    background: #24b47e;
-    color: #24b47e;
+    background: #514438;
+    color: #514438;
 }
 .timeline__event--type3 .timeline__event__title {
-    color: #24b47e;
+    color: #514438;
 }
 .timeline__event:last-child:after {
     content: none;
 }
 
-*/
 @media screen and (min-device-width: 900px) {
     header {
         color: #1B3D2F;
@@ -275,7 +274,7 @@ main {
     }
     
     #section1 {
-        margin-top: 25%;
+        margin-top: 20%;
         position: relative;
         padding: 2.5rem 2.5rem 5rem;
         display: flex;
