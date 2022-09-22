@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    font-size: 16px;
 }
 
 body {
@@ -16,7 +17,7 @@ h3 {
 }
 
 p {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 }
 
 header {
@@ -28,7 +29,7 @@ header {
 }
 
 #section1 {
-    padding: 2.5rem 2.5rem 5rem;
+    padding: 2rem 2.5rem 5rem;
     display: flex;
     flex-flow: column wrap;
     text-align: justify;
@@ -40,7 +41,7 @@ header {
 }
 
 #introduction {
-    max-width: 70%;
+    max-width: 60%;
 }
 
 #personal-picture {
@@ -134,7 +135,7 @@ main svg {
     display: flex;
     flex-flow: column wrap;
     max-width: 70%;
-    padding: 1rem 5rem;
+    padding: 1rem 4.5rem;
 }
 
 .timeline__event {
@@ -167,7 +168,8 @@ main svg {
 .timeline__event__date {
     color: #f6a4ec;
     font-size: 0.75rem;
-    max-width: 100px;
+    max-width: 80px;
+    overflow: wrap;
     white-space: nowrap;
 }
 
@@ -194,6 +196,7 @@ main svg {
 .timeline__event__description {
     justify-content: center;
     text-align: left;
+    padding-left: 8px;
 }
 
 .timeline__event:after {
@@ -262,7 +265,7 @@ main svg {
 }
 
 */
-@media screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 900px) {
     header {
         color: #1B3D2F;
         background: linear-gradient(180deg, #FDFAE6, #EEE8AA);
