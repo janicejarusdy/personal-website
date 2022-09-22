@@ -24,6 +24,7 @@ header {
     flex-wrap: wrap;
     background: linear-gradient(180deg, #FDFAE6, #EEE8AA);
     width: 100%;
+    min-height: 100vh;
     overflow: hidden;
 }
 
@@ -57,8 +58,8 @@ header img {
 
 .arrow-container {
     position: relative;
-    left: 48%;
-    top: 5%;
+    left: 52%;
+    top: 2rem;
     transform: translate(-50%, -50%);
     width: 50px;
     height: 40px;
@@ -85,6 +86,7 @@ polygon {
 main {
     background-color: #1B3D2F;
     width: 100%;
+    min-height: 100vh;
     text-align: center;
     margin: 0;
     overflow: hidden;
