@@ -49,8 +49,8 @@ header {
 }
 
 header img {
-    max-width: 249px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 250px;
     border-radius: 50px;
     box-shadow: 0 10px 10px 0;
 }
