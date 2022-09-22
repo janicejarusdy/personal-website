@@ -29,7 +29,7 @@ header {
 }
 
 #section1 {
-    padding: 2rem 2.5rem 5rem;
+    padding: 15% 2.5rem 5rem;
     display: flex;
     flex-flow: column wrap;
     text-align: justify;
@@ -84,7 +84,7 @@ polygon {
 }
 
 main {
-    background: linear-gradient(180deg, #EEE8AA, #007060);
+    background: linear-gradient(180deg, #EEE8AA, #508B87);
     max-width: 100vw;
     min-height: 100vh;
     text-align: center;
@@ -137,6 +137,7 @@ main {
     flex-flow: column wrap;
     max-width: 70%;
     padding: 1rem 4.5rem;
+    margin: auto;
 }
 
 .timeline__event {
@@ -275,7 +276,7 @@ main {
     }
     
     #section1 {
-        margin-top: 20%;
+        margin: 15% auto;
         position: relative;
         padding: 2.5rem 2.5rem 5rem;
         display: flex;
