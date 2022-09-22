@@ -112,6 +112,7 @@ main {
     max-width: 70%;
     padding: 1rem 4.5rem;
     margin: auto;
+    margin-left: 5%;
 }
 
 .timeline__event {
@@ -266,7 +267,7 @@ main {
     color: #EEE8AA;
 }
 
-@media screen and (min-device-width: 900px) {
+@media screen and (min-width: 900px) {
     header {
         color: #1B3D2F;
         background: linear-gradient(180deg, #FDFAE6, #EEE8AA);
