@@ -8,16 +8,21 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
 }
 
 p {
-    font-size: 0.9rem;
+    font-size: 2rem;
 }
 
 header {
@@ -143,8 +148,9 @@ main {
 
 .timeline__event__date {
     color: #FFC6A4;
-    font-size: 1rem;
-    width: 50px;
+    font-size: 1.5rem;
+    min-width: 50px;
+    max-width: 80px;
     white-space: pre-line;
     text-align: justify;
     margin: auto;
@@ -249,6 +255,12 @@ main {
     content: none;
 }
 
+#section3 h2 {
+    color: #F2FEDC;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
 .skills-container {
     position: relative;
     padding: 2.5rem 1rem 5rem;
@@ -267,16 +279,16 @@ main {
 .skills {
     display: flex;
     flex-flow: column wrap;
-    border: 3px dashed #C3FCF1;
+    border: 6px dashed #C3FCF1;
     border-radius: 10px;
     flex: 1 1 0;
-    width: 85%;
+    width: 90%;
 }
 
 .skills-title {
     text-align: center;
     background-color: #F2FEDC;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     color: #4A4913;
     width: 100%;
 }
@@ -288,7 +300,12 @@ main {
 
 .skills li {
     text-align: left;
+    font-size: 2rem;
 }
+
+ul {
+    list-style: square;
+  }
 
 .contact-details {
     display: flex;
@@ -356,7 +373,16 @@ main {
     }
 
     .skills {
-        height: 19rem;
+        display: flex;
+        flex-flow: column wrap;
+        border: 6px dashed #C3FCF1;
+        border-radius: 10px;
+        flex: 1 1 0;
+        width: 90%;
+    }
+
+    .skills {
+        height: 800px;
         max-width: 500px;
     }
 }
