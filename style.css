@@ -129,6 +129,7 @@ main {
 }
 
 .timeline__event {
+    opacity: 0;
     background: #fff;
     position: relative;
     left: 10%;
@@ -137,6 +138,8 @@ main {
     border-radius: 8px;
     padding: 10px;
     justify-content: center;
+    transform: translateX(100px);
+    transition: 200ms;
     box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
@@ -266,7 +269,7 @@ main {
 }
 
 #section3 {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 #section3 h2 {
@@ -344,7 +347,8 @@ ul {
     font-weight: bolder;
 }
 
-.socmed-icon, .contact-details p {
+.socmed-icon,
+.contact-details p {
     color: #1B3D2F;
     height: 1.5rem;
     margin-right: 0.5rem;
@@ -374,6 +378,11 @@ ul {
     white-space: nowrap;
     font-weight: bold;
 
+}
+
+.show {
+    transform: translateX(0);
+    opacity: 1;
 }
 
 @keyframes fadeIn {
@@ -444,7 +453,8 @@ ul {
         font-size: 1.1rem;
     }
 
-    .socmed-icon, .contact-details p {
+    .socmed-icon,
+    .contact-details p {
         color: #1B3D2F;
         height: 1.75rem;
         margin-right: 0.5rem;
