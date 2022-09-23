@@ -111,7 +111,6 @@ main {
 #section2 h2 {
     padding-top: 3rem;
     text-align: center;
-    overflow-wrap: wrap;
     color: #494738;
 }
 
@@ -296,7 +295,7 @@ main {
 .skills {
     display: flex;
     flex-flow: column wrap;
-    border: 6px dashed #fff;
+    border: 4px dashed #fff;
     border-radius: 10px;
     flex: 1 1 0;
     width: 80%;
@@ -366,6 +365,7 @@ ul {
     place-self: end;
     position: sticky;
     bottom: 20px;
+    right: 6px;
     text-decoration: none;
     padding: 10px;
     font-family: sans-serif;
@@ -423,7 +423,6 @@ ul {
     #section2 h2 {
         padding-top: 3rem;
         text-align: center;
-        overflow-wrap: wrap;
         color: #494738;
     }
 
