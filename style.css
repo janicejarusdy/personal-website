@@ -131,7 +131,7 @@ main {
     font-size: 1.2rem;
     line-height: 1.4;
     text-transform: uppercase;
-    color:#BB5B3F;
+    color: #BB5B3F;
     letter-spacing: 1.5px;
 }
 
@@ -142,7 +142,7 @@ main {
 
 
 .timeline__event__date {
-    color:#FFC6A4;
+    color: #FFC6A4;
     font-size: 1rem;
     width: 50px;
     white-space: pre-line;
@@ -152,7 +152,7 @@ main {
 
 .timeline__event__icon {
     border-radius: 8px 0 0 8px;
-    background:#BB5B3F;
+    background: #BB5B3F;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -181,7 +181,7 @@ main {
     content: "";
     max-width: 10px;
     height: 100%;
-    background:#BB5B3F;
+    background: #BB5B3F;
     position: absolute;
     top: 52%;
     left: -3.5rem;
@@ -193,7 +193,7 @@ main {
     width: 4rem;
     height: 4rem;
     position: absolute;
-    background:#FFC6A4;
+    background: #FFC6A4;
     border-radius: 100%;
     left: -5.5rem;
     top: 50%;
@@ -213,35 +213,43 @@ main {
 .timeline__event--type2 .timeline__event__date {
     color: #C3FCF1;
 }
+
 .timeline__event--type2 .timeline__event__icon {
     background: #007561;
     color: #007561;
 }
+
 .timeline__event--type2 .timeline__event__title {
     color: #007561;
 }
+
 .timeline__event--type3:before {
     background: #F1E6DD;
     border-color: #514438;
 }
+
 .timeline__event--type3:after {
     background: #514438;
 }
+
 .timeline__event--type3 .timeline__event__date {
     color: #F1E6DD;
 }
+
 .timeline__event--type3 .timeline__event__icon {
     background: #514438;
     color: #514438;
 }
+
 .timeline__event--type3 .timeline__event__title {
     color: #514438;
 }
+
 .timeline__event:last-child:after {
     content: none;
 }
 
-#section3 {
+.skills-container {
     margin: 15% auto;
     position: relative;
     padding: 2.5rem 2.5rem 5rem;
@@ -253,6 +261,25 @@ main {
     align-items: center;
     line-height: 1.25;
     gap: 2rem;
+    color: #F7F2CB;
+
+}
+
+.skills {
+    border: 3px dashed #C3FCF1;
+    border-radius: 10px;
+    flex: 1 1 0;
+    width: 80%;
+}
+
+.skills h3 {
+    text-align: center;
+    background-color: #F2FEDC;
+    color: #4A4913;
+}
+
+.skills li {
+    text-align: left;
 }
 
 .contact-details {
@@ -289,7 +316,7 @@ main {
         min-height: 100vh;
         overflow: hidden;
     }
-    
+
     #section1 {
         margin: 15% auto;
         position: relative;
@@ -304,5 +331,3 @@ main {
         gap: 2rem;
     }
 }
-
-
