@@ -358,6 +358,8 @@ ul {
     margin-top: calc(100vh + var(--offset));
     white-space: nowrap;
 
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
