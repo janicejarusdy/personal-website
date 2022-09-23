@@ -314,7 +314,6 @@ main {
 .skills-element {
     margin: 0;
     margin-top: 1rem;
-    margin-left: 16%;
     padding-right: 1.5rem;
 }
 
@@ -326,6 +325,7 @@ main {
 
 ul {
     list-style: square;
+    margin-left: 16%;
 }
 
 .contact-details {
