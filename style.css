@@ -34,6 +34,7 @@ header {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
+    margin: auto;
 }
 
 #section1 {
@@ -53,7 +54,7 @@ header {
 }
 
 #introduction {
-    max-width: 60%;
+    max-width: 500px;
 }
 
 #personal-picture {
@@ -70,8 +71,8 @@ header img {
 
 .arrow-container {
     position: relative;
-    left: 53%;
-    top: 1.2rem;
+    left: 49%;
+    top: 1.5rem;
     transform: translate(-50%, -50%);
     width: 50px;
     height: 40px;
@@ -319,6 +320,7 @@ main {
 .skills li {
     text-align: left;
     font-size: 1rem;
+    color: #FDFAE6;
 }
 
 ul {
@@ -404,6 +406,7 @@ ul {
         width: 100%;
         min-height: 100vh;
         overflow: hidden;
+        margin: auto;
     }
 
     #section1 {
@@ -444,12 +447,19 @@ ul {
 
     .skills {
         height: 400px;
-        width: 500px;
+        max-width: 500px;
     }
 
     p,
     .skills li {
         font-size: 1.1rem;
+        font-weight: normal;
+        
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: bold;
     }
 
     .socmed-icon,
