@@ -13,7 +13,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 p {
@@ -250,9 +250,8 @@ main {
 }
 
 .skills-container {
-    margin: 15% auto;
     position: relative;
-    padding: 2.5rem 2.5rem 5rem;
+    padding: 2.5rem 1rem 5rem;
     display: flex;
     flex-flow: column wrap;
     text-align: justify;
@@ -266,16 +265,25 @@ main {
 }
 
 .skills {
+    display: flex;
+    flex-flow: column wrap;
     border: 3px dashed #C3FCF1;
     border-radius: 10px;
     flex: 1 1 0;
-    width: 80%;
+    width: 85%;
 }
 
-.skills h3 {
+.skills-title {
     text-align: center;
     background-color: #F2FEDC;
+    border-radius: 8px;
     color: #4A4913;
+    width: 100%;
+}
+
+.skills-element {
+    margin: 0;
+    margin-left: 15%;
 }
 
 .skills li {
@@ -329,5 +337,26 @@ main {
         align-items: center;
         line-height: 1.25;
         gap: 2rem;
+    }
+
+    .skills-container {
+        position: relative;
+        padding: 2.5rem 1rem 5rem;
+        margin: auto 4.5rem;
+        display: flex;
+        flex-flow: row wrap;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.25;
+        gap: 2rem;
+        color: #F7F2CB;
+    
+    }
+
+    .skills {
+        height: 19rem;
+        max-width: 500px;
     }
 }
