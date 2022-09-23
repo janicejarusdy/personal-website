@@ -140,6 +140,9 @@ main {
     text-transform: uppercase;
     color: #BB5B3F;
     letter-spacing: 1.5px;
+    text-align: left;
+    padding-left: 8px;
+
 }
 
 .timeline__event__content {
@@ -178,7 +181,6 @@ main {
 }
 
 .timeline__event__description {
-    justify-content: center;
     text-align: left;
     padding-left: 8px;
     max-width: 90%;
