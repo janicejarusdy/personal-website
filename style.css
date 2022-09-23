@@ -6,6 +6,8 @@ html {
 body {
     font-family: "PT Sans", sans-serif;
     margin: 0;
+    display: grid;
+    grid-template-columns: auto 0;
 }
 
 h1 {
@@ -47,7 +49,7 @@ header {
 }
 
 .fade-in-image {
-    animation: fadeIn 3s;
+    animation: fadeIn 2s;
 }
 
 #introduction {
@@ -313,7 +315,7 @@ main {
 
 ul {
     list-style: square;
-  }
+}
 
 .contact-details {
     display: flex;
@@ -341,9 +343,29 @@ ul {
     color: #EEE8AA;
 }
 
+.top {
+    place-self: end;
+    position: sticky;
+    bottom: 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    margin-top: 100vh;
+    --offset: 100px;
+    margin-top: calc(100vh + var(--offset));
+    white-space: nowrap;
+
 @keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @media screen and (min-width: 650px) {
@@ -391,7 +413,7 @@ ul {
         line-height: 1.25;
         gap: 2rem;
         color: #F7F2CB;
-    
+
     }
 
     .skills {
@@ -399,7 +421,8 @@ ul {
         width: 500px;
     }
 
-    p, .skills li {
+    p,
+    .skills li {
         font-size: 1.1rem;
     }
 }
