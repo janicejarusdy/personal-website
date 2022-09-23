@@ -153,6 +153,7 @@ main {
 
 .timeline__event__content {
     padding: 8px;
+    padding-right: 2px;
     flex-basis: 100%;
 }
 
@@ -264,6 +265,10 @@ main {
     content: none;
 }
 
+#section3 {
+    margin-top: 5rem;
+}
+
 #section3 h2 {
     color: #F2FEDC;
     margin-top: 3rem;
@@ -296,14 +301,15 @@ main {
 
 .skills-title {
     text-align: center;
-    background-color: #EEE8AA;
+    background-color: #FDFAE6;
     border-radius: 8px 8px 0 0;
-    color: #4A4913;
+    color: #2F4858;
     width: 100%;
 }
 
 .skills-element {
     margin: 0;
+    margin-top: 1rem;
     margin-left: 16%;
     padding-right: 1.5rem;
 }
