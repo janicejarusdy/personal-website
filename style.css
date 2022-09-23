@@ -46,6 +46,10 @@ header {
     gap: 1.5rem;
 }
 
+.fade-in-image {
+    animation: fadeIn 3s;
+}
+
 #introduction {
     max-width: 60%;
 }
@@ -335,6 +339,11 @@ ul {
     transform: translate(-2px, -4px);
     background-color: #AEAC99;
     color: #EEE8AA;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 @media screen and (min-width: 650px) {
