@@ -299,8 +299,7 @@ main {
     border: 4px dashed #fff;
     border-radius: 10px;
     flex: 1 1 0;
-    width: 80%;
-    height: 800px;
+    min-width: 80%;
 }
 
 .skills-title {
