@@ -312,7 +312,7 @@ main {
 }
 
 .skills-element {
-    margin: 0;
+    margin: auto;
     margin-top: 1rem;
     padding-right: 1.5rem;
 }
