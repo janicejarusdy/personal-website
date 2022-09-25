@@ -296,6 +296,7 @@ main {
 .skills {
     display: flex;
     flex-flow: column wrap;
+    white-space: wrap;
     border: 4px dashed #fff;
     border-radius: 10px;
     flex: 1 1 0;
