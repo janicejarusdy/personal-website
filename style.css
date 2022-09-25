@@ -315,6 +315,7 @@ main {
     margin: auto;
     margin-top: 1rem;
     padding-right: 1.5rem;
+    overflow: scroll;
 }
 
 .skills li {
